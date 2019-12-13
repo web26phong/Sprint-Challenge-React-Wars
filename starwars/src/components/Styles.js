@@ -1,21 +1,64 @@
 import styled from "styled-components";
 
-export const CharContainer = styled.div``;
+export const CharGrid = styled.div`
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+`;
 
-export const Name = styled.h2``;
+export const CharContainer = styled.div`
+    display: flex;
+    flex-direction: column;
+    border: solid black 1px;
+    width: 24%;
+    background-color: rgba(255,255,255, 0.5);
+    margin-bottom: 1%;
+`;
 
-export const Height = styled.p``;
+export const Name = styled.h2`
+    width: 100%;
+    border-bottom: solid black 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+`;
 
-export const Mass = styled.p``;
+export const CharStatContainer = styled.div`
+    margin-bottom: 1%;
+`;
 
-export const HairColor = styled.p``;
+export const Height = styled.p`
+    margin: 0;
+    padding: 0;
+`;
 
-export const SkinColor = styled.p``;
+export const Mass = styled.p`
+    margin: 0;
+    padding: 0;
+`;
 
-export const EyeColor = styled.p``;
+export const HairColor = styled.p`
+    margin: 0;
+    padding: 0;
+`;
 
-export const BirthYear = styled.p``;
+export const SkinColor = styled.p`
+    margin: 0;
+    padding: 0;
+`;
 
-export const Gender = styled.p``;
+export const EyeColor = styled.p`
+    margin: 0;
+    padding: 0;
+`;
 
-export const World = styled.p``;
+export const BirthYear = styled.p`
+    margin: 0;
+    padding: 0;
+`;
+
+export const Gender = styled.p`
+    margin: 0;
+    padding: 0;
+`;
